@@ -1,4 +1,4 @@
-
+/* Sets the general style of the body e.g. black color font */
 body {
   background-color: #ADD8E6;
   font-family: "Times New Roman";
@@ -7,6 +7,7 @@ body {
   text-align: center;
 }
 
+/* Sets the basic style of lists e.g. no bullet point */
 ul {
 	list-style: none;
 	margin: 0;
@@ -14,6 +15,7 @@ ul {
 	display: block;
 }
 
+/* Sets the style of the first heading e.g. a navy color */
 h1#topic {
   color: navy;
   display: block;
@@ -21,10 +23,22 @@ h1#topic {
   display: block;
 }
 
+/* Allows the main body to display as a block element */
 div.maintext {
 	display: block;
 }
 
+/* Sets the specifications of images on the index page e.g. rounded corners with border-radius */
+.indexphoto {
+	width: 500px;
+	height: 375px;
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Same as above */
 .travelphoto {
 	width: 500px;
 	height: 375px;
@@ -42,8 +56,6 @@ div.maintext {
 	margin-right: auto;
 }
 
-
-
 /* GMapsOption End */
 
 
@@ -58,14 +70,19 @@ h1::before {
 /* With reference to W3Schools tutorial */
 /* A simplistic and intuitive design*/
 
+/* Sets the alignment and style of the list of the menu */
 li.menu {
 	float: left;
 	border-right: 1px solid black;
 	
 }
+
+/* Removes the border on the right of the menu bar */
 li.menu:last-child {
 	border-right: none;
 }
+
+/* Sets the style of the menu bar */
 a.menu {
 	display: block;
 	padding: 8px;
@@ -73,10 +90,12 @@ a.menu {
 	text-decoration: none;
 }
 
+/* Removes the underline of the link */
 a:visited {
 	text-decoration: none;
 }
 
+/* Show a gray background color when hovering around the link */
 a.menu:hover {
 	background-color: gray;
 }
@@ -88,11 +107,13 @@ a.menu:hover {
 /* LinksOption Begin */
 /* Inspiration for line-height: setting line height to allow good spacing to show the links; source: https://stackoverflow.com/questions/16555644/how-can-i-make-a-link-inside-a-div-fill-the-entire-space-inside-the-div*/
 /* underline when hovering: From W3Schools */
-.link { line-height: 4;
+/* Sets the format of the link e.g. a green color */
+.link { line-height: 4; 
 		color: green;
 		text-decoration: none;
 }
 
+/* Shows underlined effect when hovering around the link; source: W3Schools */
 a.link:hover {text-decoration: underline;
 }
 
