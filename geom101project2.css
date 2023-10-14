@@ -8,10 +8,16 @@ body {
 
 /* Sets the basic style of paragraphs e.g. font size */
 p {
-	font-size: 16 px;
+	font-size: 18px;
 	font-family: "Times New Roman";
 	letter-spacing: 1.5px;
 	line-height: 1.2;
+}
+
+/* Selects p element with class sentences; Declaration set against the p selector, reference from W3Schoools*/
+p.sentences {
+	font-style: italic;
+	text-decoration-line: overline;
 }
 
 /* Sets the basic style of lists e.g. no bullet point */
@@ -22,35 +28,47 @@ ul {
 	display: block;
 }
 
-/* Sets the style of the first(h1) heading e.g. a navy color */
+/* Selects the h1 element with ID topic and style e.g. a navy color */
 h1#topic {
   color: navy;
   display: block;
   white-space: pre-line;
   line-height: 2;
+  font-family: "Times New Roman";
 }
 
 /* Sets the style of h2 e.g.  */
 h2 {
 	color: darkblue;
 	letter-spacing: 1.5px;
-	line-height: 1.6;
+	line-height: 5;
 }
 
-
-/* Allows the main text to display as a block element */
-div.maintext {
+/* Selects the div element with class maintext and allows the main text to display as a block element */
+#maintext {
 	display: block;
 }
 
-/* Sets the specifications of images on the index page e.g. rounded corners with border-radius */
+/* Sets the general specifications of images on the index page e.g. rounded corners with border-radius */
 .indexphoto {
-	width: 500px;
-	height: 375px;
 	border-radius: 10px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/* Setting native resolution for photos on index.html */
+#sharingpic {
+	width: 500px;
+	height: 375px;
+}
+#farmingpic {
+	width: 360px;
+	height: 480px;
+}
+#growingpic {
+	width: 375px;
+	height: 500px;
 }
 
 /* Same as above */
@@ -62,18 +80,6 @@ div.maintext {
 	margin-left: auto;
 	margin-right: auto;
 }
-
-/* GMapsOption Begin */
-.gmap {
-	display: block;
-	border-radius: 10px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-/* GMapsOption End */
-
-
 
 /* Add line spacing between MenuOption and main body; reference: W3docs*/
 h1::before {
@@ -103,6 +109,7 @@ a.menu {
 	padding: 8px;
 	color: black;
 	text-decoration: none;
+	font-size: 16px;
 }
 
 /* Removes the underline of the link */
@@ -131,6 +138,5 @@ a.menu:hover {
 /* Shows underlined effect when hovering around the link; source: W3Schools */
 a.link:hover {text-decoration: underline;
 }
-
 
 /* LinksOption End */
