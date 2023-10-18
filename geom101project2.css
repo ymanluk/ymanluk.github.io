@@ -28,13 +28,15 @@ ul {
 	display: block;
 }
 
-/* Selects the h1 element with ID topic and style e.g. a navy color */
+/* Selects the h1 element with ID named topic to style e.g. a navy color */
 h1#topic {
   color: navy;
   display: block;
   white-space: pre-line;
   line-height: 2;
   font-family: "Times New Roman";
+  font-weight: 1000;
+  font-size: 2.5em;
 }
 
 /* Sets the style of h2 e.g.  */
@@ -42,6 +44,8 @@ h2 {
 	color: darkblue;
 	letter-spacing: 1.5px;
 	line-height: 5;
+	font-size: 1.8em;
+	font-weight: 800;
 }
 
 /* Selects the div element with class maintext and allows the main text to display as a block element */
