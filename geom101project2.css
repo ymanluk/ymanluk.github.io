@@ -1,3 +1,5 @@
+/* This css document styles the following two html pages: "https://ymanluk.github.io/index.html" and "https://ymanluk.github.io/mytravels.html"
+
 /* Sets the general style of the body e.g. black color font */
 body {
   background-color: #ADD8E6;
@@ -18,6 +20,7 @@ p {
 p.sentences {
 	font-style: italic;
 	text-decoration-line: overline;
+	letter-spacing: 1.2px;
 }
 
 /* Sets the basic style of lists e.g. no bullet point */
@@ -36,7 +39,7 @@ h1#topic {
   line-height: 2;
   font-family: "Times New Roman";
   font-weight: 1000;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 /* Sets the style of h2 e.g.  */
@@ -92,7 +95,7 @@ h1::before {
 }
 
 /* MenuOption Begin */
-/* With reference to W3Schools tutorial */
+/* With reference to W3Schools tutorial https://www.w3schools.com/Css/css_navbar.asp*/
 /* A simplistic and intuitive design*/
 
 /* Sets the alignment and style of the list of the menu */
