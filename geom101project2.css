@@ -31,18 +31,22 @@ ul {
 	display: block;
 }
 
-/* Selects the h1 element with ID named topic to style e.g. a navy color */
-h1#topic {
+/* Sets the general style for h1 e.g. */
+h1 {
   color: navy;
   display: block;
+  font-family: "Times New Roman";
+}
+
+/* Sets the unique style for the first heading of H1 with ID 'topic' e.g. larger font size and higher font weight */
+h1#topic {
   white-space: pre-line;
   line-height: 2;
-  font-family: "Times New Roman";
   font-weight: 1000;
   font-size: 3em;
 }
 
-/* Sets the style of h2 e.g.  */
+/* Sets the general style of all h2 e.g. higher line height */
 h2 {
 	color: darkblue;
 	letter-spacing: 1.5px;
@@ -50,6 +54,7 @@ h2 {
 	font-size: 1.8em;
 	font-weight: 800;
 }
+	
 
 /* Selects the div element with class maintext and allows the main text to display as a block element */
 #maintext {
