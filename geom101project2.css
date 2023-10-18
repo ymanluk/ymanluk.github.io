@@ -55,7 +55,7 @@ h2 {
 	font-weight: 800;
 }
 
-/* Sets the unique style for the last heading of h1 with ID 'end' e.g. larger font size and higher font weight */
+/* Sets the unique style for the last heading of h2 with ID 'end' e.g. larger font size and higher font weight */
 #end {
 	font-size: 2.2em;
 	font-weight: 900;
